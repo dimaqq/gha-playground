@@ -1,0 +1,12 @@
+name: AAA
+
+on:
+  push:
+    paths:
+      - "*.txt"
+
+jobs:
+  test1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "any txt"
