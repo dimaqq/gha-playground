@@ -1,0 +1,12 @@
+name: Knowledgeable
+
+on:
+  push:
+    paths:
+      - "ig/**"
+
+jobs:
+  test1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Triggered on ig"
